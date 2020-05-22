@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background: #222;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 20px;
+}
+
+h1 {
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(255, 85, 17);
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    color: white;
+}
+
+#download {
+    border-radius: 0;
+}
+
+#bottom-text-size-input {
+    text-align: center;
+}
+
+#generate-btn {
+    border-radius: 0;
+    position: absolute;
+    left: 60px;
+}
+
+#image-input {
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+#meme-canvas {
+    width: 500px;
+    top: 56px;
+    position: absolute;
+    right: 5px;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+    .container {
+        background-color: #222;
+        padding: 15px;
+    }
+    p {
+        color: white;
+        margin: 0;
+    }
+    #generate-btn {
+        position: relative;
+        left: -1px;
+        top: 50px;
+    }
+    #download {
+        position: relative;
+        left: 120px;
+        top: 12px;
+    }
+    #meme-canvas {
+        top: 107px;
+    }
+}
